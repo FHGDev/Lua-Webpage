@@ -1,5 +1,5 @@
-local js = require 'js'
-_G.window = js.global
+_G.js = require('js')
+_G.window = js.window
 _G.document = window.document
 
-document.title = "LMAO"
+document:write("<h1>Hi!</h1>")
